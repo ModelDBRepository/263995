@@ -1,0 +1,228 @@
+DEFINE_MOLECULES
+{
+  Calcium
+  {
+    DIFFUSION_CONSTANT_3D = 2.23e-06
+  }
+  B
+  {
+    DIFFUSION_CONSTANT_3D = 2e-07
+  }
+  CB1
+  {
+    DIFFUSION_CONSTANT_3D = 2e-07
+  }
+  CB2
+  {
+    DIFFUSION_CONSTANT_3D = 2e-07
+  }
+  CB1CB2
+  {
+    DIFFUSION_CONSTANT_3D = 2e-07
+  }
+  CCB1
+  {
+    DIFFUSION_CONSTANT_3D = 2e-07
+  }
+  CCB1CB2
+  {
+    DIFFUSION_CONSTANT_3D = 2e-07
+  }
+  CCB2
+  {
+    DIFFUSION_CONSTANT_3D = 2e-07
+  }
+  CB1CCB2
+  {
+    DIFFUSION_CONSTANT_3D = 2e-07
+  }
+  Fluo5F
+  {
+    DIFFUSION_CONSTANT_3D = 2e-06
+  }
+  CaDye
+  {
+    DIFFUSION_CONSTANT_3D = 2e-06
+  }
+  intruder
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  extruder
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  Caleak
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  syt1
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  CCB1CCB2
+  {
+    DIFFUSION_CONSTANT_3D = 2e-07
+  }
+  Bb
+  {
+    DIFFUSION_CONSTANT_3D = 0
+  }
+  CB1b
+  {
+    DIFFUSION_CONSTANT_3D = 0
+  }
+  CCB1b
+  {
+    DIFFUSION_CONSTANT_3D = 0
+  }
+  CB2b
+  {
+    DIFFUSION_CONSTANT_3D = 0
+  }
+  CB1CB2b
+  {
+    DIFFUSION_CONSTANT_3D = 0
+  }
+  CCB1CB2b
+  {
+    DIFFUSION_CONSTANT_3D = 0
+  }
+  CCB2b
+  {
+    DIFFUSION_CONSTANT_3D = 0
+  }
+  CB1CCB2b
+  {
+    DIFFUSION_CONSTANT_3D = 0
+  }
+  CCB1CCB2b
+  {
+    DIFFUSION_CONSTANT_3D = 0
+  }
+  s1
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s2
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s3
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s4
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s5
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s12
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s13
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s14
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s15
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s23
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s24
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s25
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s34
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s35
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s45
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s123
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s124
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s125
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s134
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s135
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s145
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s234
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s235
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s245
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s345
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s1234
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s1235
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s1245
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s1345
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s2345
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+  s12345
+  {
+    DIFFUSION_CONSTANT_2D = 0
+  }
+}
+

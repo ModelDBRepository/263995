@@ -1,0 +1,144 @@
+MODIFY_SURFACE_REGIONS
+{
+  det01[detect01]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  det02[detect02]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  det03[detect03]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  det04[detect04]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  det05[detect05]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  det06[detect06]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  det07[detect07]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  det08[detect08]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  det09[detect09]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  det10[detect10]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  det11[detect11]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.00[cube000]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.01[cube000]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.02[cube000]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.03[cube000]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.04[cube000]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.05[cube000]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.06[cube000]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.07[cube000]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.08[cube001]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.09[cube002]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.10[cube003]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.11[cube004]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.12[cube005]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.13[cube006]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.14[cube007]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.15[cube008]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.16[cube009]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.17[cube010]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.18[cube011]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.19[cube012]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.20[cube013]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.21[cube014]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.22[cube015]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+  Cube.23[cube016]
+  {
+    SURFACE_CLASS = Ca_transparent
+  }
+}
+

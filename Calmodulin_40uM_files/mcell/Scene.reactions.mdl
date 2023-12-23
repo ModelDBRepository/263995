@@ -1,0 +1,40 @@
+DEFINE_REACTIONS
+{
+  Calcium + B <-> CB1 [>16.8e+07, <2.6e+3]
+  Calcium + B <-> CB2 [>15.4e+08, <1.6e+5]
+  Calcium + CB1 <-> CCB1 [>2.5e+07, <13]
+  Calcium + CB1 <-> CB1CB2 [>15.4e+08, <1.6e+5]
+  Calcium + CB2 <-> CCB2 [>3.2e+10, <4.4e+4]
+  Calcium + CCB1 <-> CCB1CB2 [>15.4e+08, <1.6e+5]
+  Calcium + CB1CB2 <-> CB1CCB2 [>3.2e+10, <4.4e+4]
+  
+  Calcium + Fluo5F <-> CaDye [>5e+08, <750]
+  Calcium' + intruder' -> intruder' [6.58e+7]
+  Calcium' + extruder' -> extruder' [6.58e+7]
+  Caleak' -> Caleak' + Calcium' [5.2]
+  Calcium' + syt1' <-> syt1Ca' [>8e+08, <8000]
+  
+  Calcium + CCB1CB2 <-> CCB1CCB2 [>3.2e+10, <4.4e+4]
+  Calcium + CB1CCB2 <-> CCB1CCB2 [>2.5e+07, <13]
+  Calcium + CB2 <-> CB1CB2 [>16.8e+07, <2.6e+3]
+  Calcium + CB1CB2 <-> CCB1CB2 [>2.5e+07, <13]
+  Calcium + CCB2 <-> CB1CCB2 [>16.8e+07, <2.6e+3]
+  
+  Calcium' + syt1Ca' <-> syt1Ca2' [>6e+08, <16000]
+  Calcium' + syt1Ca2' <-> syt1Ca3' [>4e+08, <24000]
+  Calcium' + syt1Ca3' <-> syt1Ca4' [>2e+08, <32000]
+  
+  Calcium + Bb <-> CB1b [>16.8e+07, <2.6e+3]
+  Calcium + CB1b <-> CCB1b [>2.5e+07, <13]
+  Calcium + Bb <-> CB2b [>15.4e+08, <1.6e+5]
+  Calcium + CB2b <-> CCB2b [>3.2e+10, <4.4e+4]
+  Calcium + CB1b <-> CB1CB2b [>15.4e+08, <1.6e+5]
+  Calcium + CB2b <-> CB1CB2b [>16.8e+07, <2.6e+3]
+  Calcium + CCB1b <-> CCB1CB2b [>15.4e+08, <1.6e+5]
+  Calcium + CCB2b <-> CB1CCB2b [>16.8e+07, <2.6e+3]
+  Calcium + CCB1CB2b <-> CCB1CCB2b [>3.2e+10, <4.4e+4]
+  Calcium + CB1CCB2b <-> CCB1CCB2b [>2.5e+07, <13]
+  Calcium + CB1CB2b <-> CCB1CB2b [>2.5e+07, <13]
+  Calcium + CB1CB2b <-> CB1CCB2b [>3.2e+10, <4.4e+4]
+}
+

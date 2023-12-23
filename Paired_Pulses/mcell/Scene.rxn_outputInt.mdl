@@ -1,0 +1,37 @@
+REACTION_DATA_OUTPUT
+{
+  STEP=1e-06
+  {COUNT[B,WORLD]}=> "./react_data/seed_" & seed & "/B.World.dat"
+  {COUNT[CaDye,WORLD]}=> "./react_data/seed_" & seed & "/CaDye.World.dat"
+  {COUNT[Calcium,WORLD]}=> "./react_data/seed_" & seed & "/Calcium.World.dat"
+  {COUNT[CB1,WORLD]}=> "./react_data/seed_" & seed & "/CB1.World.dat"
+  {COUNT[CB1CB2,WORLD]}=> "./react_data/seed_" & seed & "/CB1CB2.World.dat"
+  {COUNT[CB2,WORLD]}=> "./react_data/seed_" & seed & "/CB2.World.dat"
+  {COUNT[CCB1,WORLD]}=> "./react_data/seed_" & seed & "/CCB1.World.dat"
+  {COUNT[CCB1CB2,WORLD]}=> "./react_data/seed_" & seed & "/CCB1CB2.World.dat"
+  {COUNT[CCB2,WORLD]}=> "./react_data/seed_" & seed & "/CCB2.World.dat"
+  {COUNT[Fluo5F,WORLD]}=> "./react_data/seed_" & seed & "/Fluo5F.World.dat"
+  
+  {COUNT[CCB1CCB2,WORLD]}=> "./react_data/seed_" & seed & "/CCB1CCB2.World.dat"
+  {COUNT[CB1CCB2,WORLD]}=> "./react_data/seed_" & seed & "/CB1CCB2.World.dat"
+  
+  {COUNT[syt1,WORLD]}=> "./react_data/seed_" & seed & "/syt1.World.dat"
+  {COUNT[s12345,WORLD]}=> "./react_data/seed_" & seed & "/s12345.World.dat"
+  
+  {COUNT[Bb,WORLD]}=> "./react_data/seed_" & seed & "/Bb.World.dat"
+  {COUNT[CB1b,WORLD]}=> "./react_data/seed_" & seed & "/CB1b.World.dat"
+  {COUNT[CB1CB2b,WORLD]}=> "./react_data/seed_" & seed & "/CB1CB2b.World.dat"
+  {COUNT[CB1CCB2b,WORLD]}=> "./react_data/seed_" & seed & "/CB1CCB2b.World.dat"
+  {COUNT[CB2b,WORLD]}=> "./react_data/seed_" & seed & "/CB2b.World.dat"
+  {COUNT[CCB1b,WORLD]}=> "./react_data/seed_" & seed & "/CCB1b.World.dat"
+  {COUNT[CCB1CB2b,WORLD]}=> "./react_data/seed_" & seed & "/CCB1CB2b.World.dat"
+  {COUNT[CCB1CCB2b,WORLD]}=> "./react_data/seed_" & seed & "/CCB1CCB2b.World.dat"
+  {COUNT[CCB2b,WORLD]}=> "./react_data/seed_" & seed & "/CCB2b.World.dat"
+  {COUNT[syt1,Scene.plasmalemma[syta]]}=> "./react_data/seed_" & seed & "/syt1.plasmalemma.syta.dat"
+  {COUNT[s12345,Scene.plasmalemma[syta]]}=> "./react_data/seed_" & seed & "/s12345.plasmalemma.syta.dat"
+  {COUNT[syt1,Scene.plasmalemma[syt13]]}=> "./react_data/seed_" & seed & "/syt1.plasmalemma.syt13.dat"
+  {COUNT[s12345,Scene.plasmalemma[syt13]]}=> "./react_data/seed_" & seed & "/s12345.plasmalemma.syt13.dat"
+  {COUNT[syt1,Scene.plasmalemma[syt16]]}=> "./react_data/seed_" & seed & "/syt1.plasmalemma.syt16.dat"
+  {COUNT[s12345,Scene.plasmalemma[syt16]]}=> "./react_data/seed_" & seed & "/s12345.plasmalemma.syt16.dat"
+}
+

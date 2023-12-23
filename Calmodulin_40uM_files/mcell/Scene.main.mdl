@@ -1,0 +1,503 @@
+ITERATIONS = 2500000
+TIME_STEP = 4e-07
+VACANCY_SEARCH_DISTANCE = 10
+
+INCLUDE_FILE = "Scene.initialization.mdl"
+
+PARTITION_X = [[-0.515654 TO 0.515654 STEP 0.05]]
+PARTITION_Y = [[-0.515653 TO 0.515654 STEP 0.05]]
+PARTITION_Z = [[-3.75789 TO 3.7748 STEP 0.05]]
+
+INCLUDE_FILE = "Scene.molecules.mdl"
+
+INCLUDE_FILE = "Scene.surface_classes.mdl"
+
+INCLUDE_FILE = "Scene.reactions.mdl"
+
+INCLUDE_FILE = "Scene.geometry.mdl"
+
+INCLUDE_FILE = "Scene.mod_surf_regions.mdl"
+
+INCLUDE_FILE = "Scene.release_patterns.mdl"
+
+INSTANTIATE Scene OBJECT
+{
+  Cube.00 OBJECT Cube.00 {}
+  Cube.01 OBJECT Cube.01 {}
+  Cube.02 OBJECT Cube.02 {}
+  Cube.03 OBJECT Cube.03 {}
+  Cube.04 OBJECT Cube.04 {}
+  Cube.05 OBJECT Cube.05 {}
+  Cube.06 OBJECT Cube.06 {}
+  Cube.07 OBJECT Cube.07 {}
+  Cube.08 OBJECT Cube.08 {}
+  Cube.09 OBJECT Cube.09 {}
+  Cube.10 OBJECT Cube.10 {}
+  Cube.11 OBJECT Cube.11 {}
+  Cube.12 OBJECT Cube.12 {}
+  Cube.13 OBJECT Cube.13 {}
+  Cube.14 OBJECT Cube.14 {}
+  Cube.15 OBJECT Cube.15 {}
+  Cube.16 OBJECT Cube.16 {}
+  Cube.17 OBJECT Cube.17 {}
+  Cube.18 OBJECT Cube.18 {}
+  Cube.19 OBJECT Cube.19 {}
+  Cube.20 OBJECT Cube.20 {}
+  Cube.21 OBJECT Cube.21 {}
+  Cube.22 OBJECT Cube.22 {}
+  Cube.23 OBJECT Cube.23 {}
+  det01 OBJECT det01 {}
+  det02 OBJECT det02 {}
+  det03 OBJECT det03 {}
+  det04 OBJECT det04 {}
+  det05 OBJECT det05 {}
+  det06 OBJECT det06 {}
+  det07 OBJECT det07 {}
+  det08 OBJECT det08 {}
+  det09 OBJECT det09 {}
+  det10 OBJECT det10 {}
+  det11 OBJECT det11 {}
+  mitochondrian OBJECT mitochondrian {}
+  plasmalemma OBJECT plasmalemma {}
+  vesicle.000 OBJECT vesicle.000 {}
+  vesicle.001 OBJECT vesicle.001 {}
+  vesicle.002 OBJECT vesicle.002 {}
+  vesicle.003 OBJECT vesicle.003 {}
+  vesicle.004 OBJECT vesicle.004 {}
+  vesicle.005 OBJECT vesicle.005 {}
+  vesicle.006 OBJECT vesicle.006 {}
+  vesicle.007 OBJECT vesicle.007 {}
+  vesicle.008 OBJECT vesicle.008 {}
+  vesicle.009 OBJECT vesicle.009 {}
+  vesicle.010 OBJECT vesicle.010 {}
+  vesicle.011 OBJECT vesicle.011 {}
+  vesicle.012 OBJECT vesicle.012 {}
+  vesicle.013 OBJECT vesicle.013 {}
+  vesicle.014 OBJECT vesicle.014 {}
+  vesicle.015 OBJECT vesicle.015 {}
+  vesicle.016 OBJECT vesicle.016 {}
+  vesicle.017 OBJECT vesicle.017 {}
+  vesicle.018 OBJECT vesicle.018 {}
+  vesicle.019 OBJECT vesicle.019 {}
+  vesicle.020 OBJECT vesicle.020 {}
+  vesicle.021 OBJECT vesicle.021 {}
+  vesicle.022 OBJECT vesicle.022 {}
+  vesicle.023 OBJECT vesicle.023 {}
+  vesicle.024 OBJECT vesicle.024 {}
+  vesicle.025 OBJECT vesicle.025 {}
+  vesicle.026 OBJECT vesicle.026 {}
+  vesicle.027 OBJECT vesicle.027 {}
+  vesicle.028 OBJECT vesicle.028 {}
+  vesicle.029 OBJECT vesicle.029 {}
+  vesicle.030 OBJECT vesicle.030 {}
+  vesicle.031 OBJECT vesicle.031 {}
+  vesicle.032 OBJECT vesicle.032 {}
+  vesicle.033 OBJECT vesicle.033 {}
+  vesicle.034 OBJECT vesicle.034 {}
+  vesicle.035 OBJECT vesicle.035 {}
+  vesicle.036 OBJECT vesicle.036 {}
+  vesicle.037 OBJECT vesicle.037 {}
+  vesicle.038 OBJECT vesicle.038 {}
+  vesicle.039 OBJECT vesicle.039 {}
+  vesicle.040 OBJECT vesicle.040 {}
+  vesicle.041 OBJECT vesicle.041 {}
+  vesicle.042 OBJECT vesicle.042 {}
+  vesicle.043 OBJECT vesicle.043 {}
+  vesicle.044 OBJECT vesicle.044 {}
+  vesicle.045 OBJECT vesicle.045 {}
+  vesicle.046 OBJECT vesicle.046 {}
+  vesicle.047 OBJECT vesicle.047 {}
+  vesicle.048 OBJECT vesicle.048 {}
+  vesicle.049 OBJECT vesicle.049 {}
+  vesicle.050 OBJECT vesicle.050 {}
+  vesicle.051 OBJECT vesicle.051 {}
+  vesicle.052 OBJECT vesicle.052 {}
+  vesicle.053 OBJECT vesicle.053 {}
+  vesicle.054 OBJECT vesicle.054 {}
+  vesicle.055 OBJECT vesicle.055 {}
+  vesicle.056 OBJECT vesicle.056 {}
+  vesicle.057 OBJECT vesicle.057 {}
+  vesicle.058 OBJECT vesicle.058 {}
+  vesicle.059 OBJECT vesicle.059 {}
+  vesicle.060 OBJECT vesicle.060 {}
+  vesicle.061 OBJECT vesicle.061 {}
+  vesicle.062 OBJECT vesicle.062 {}
+  vesicle.063 OBJECT vesicle.063 {}
+  vesicle.064 OBJECT vesicle.064 {}
+  vesicle.065 OBJECT vesicle.065 {}
+  vesicle.066 OBJECT vesicle.066 {}
+  vesicle.067 OBJECT vesicle.067 {}
+  vesicle.068 OBJECT vesicle.068 {}
+  vesicle.069 OBJECT vesicle.069 {}
+  vesicle.070 OBJECT vesicle.070 {}
+  vesicle.071 OBJECT vesicle.071 {}
+  vesicle.072 OBJECT vesicle.072 {}
+  vesicle.073 OBJECT vesicle.073 {}
+  vesicle.074 OBJECT vesicle.074 {}
+  vesicle.075 OBJECT vesicle.075 {}
+  vesicle.076 OBJECT vesicle.076 {}
+  vesicle.077 OBJECT vesicle.077 {}
+  vesicle.078 OBJECT vesicle.078 {}
+  vesicle.079 OBJECT vesicle.079 {}
+  vesicle.080 OBJECT vesicle.080 {}
+  vesicle.081 OBJECT vesicle.081 {}
+  vesicle.082 OBJECT vesicle.082 {}
+  vesicle.083 OBJECT vesicle.083 {}
+  vesicle.084 OBJECT vesicle.084 {}
+  vesicle.085 OBJECT vesicle.085 {}
+  vesicle.086 OBJECT vesicle.086 {}
+  vesicle.087 OBJECT vesicle.087 {}
+  vesicle.088 OBJECT vesicle.088 {}
+  vesicle.089 OBJECT vesicle.089 {}
+  vesicle.090 OBJECT vesicle.090 {}
+  vesicle.091 OBJECT vesicle.091 {}
+  vesicle.092 OBJECT vesicle.092 {}
+  vesicle.093 OBJECT vesicle.093 {}
+  vesicle.094 OBJECT vesicle.094 {}
+  vesicle.095 OBJECT vesicle.095 {}
+  vesicle.096 OBJECT vesicle.096 {}
+  vesicle.097 OBJECT vesicle.097 {}
+  vesicle.098 OBJECT vesicle.098 {}
+  vesicle.099 OBJECT vesicle.099 {}
+  vesicle.100 OBJECT vesicle.100 {}
+  vesicle.101 OBJECT vesicle.101 {}
+  vesicle.102 OBJECT vesicle.102 {}
+  vesicle.103 OBJECT vesicle.103 {}
+  vesicle.104 OBJECT vesicle.104 {}
+  vesicle.105 OBJECT vesicle.105 {}
+  vesicle.106 OBJECT vesicle.106 {}
+  vesicle.107 OBJECT vesicle.107 {}
+  vesicle.108 OBJECT vesicle.108 {}
+  vesicle.109 OBJECT vesicle.109 {}
+  vesicle.110 OBJECT vesicle.110 {}
+  vesicle.111 OBJECT vesicle.111 {}
+  vesicle.112 OBJECT vesicle.112 {}
+  vesicle.113 OBJECT vesicle.113 {}
+  vesicle.114 OBJECT vesicle.114 {}
+  vesicle.115 OBJECT vesicle.115 {}
+  vesicle.116 OBJECT vesicle.116 {}
+  vesicle.117 OBJECT vesicle.117 {}
+  vesicle.118 OBJECT vesicle.118 {}
+  vesicle.119 OBJECT vesicle.119 {}
+  vesicle.120 OBJECT vesicle.120 {}
+  vesicle.121 OBJECT vesicle.121 {}
+  vesicle.122 OBJECT vesicle.122 {}
+  vesicle.123 OBJECT vesicle.123 {}
+  vesicle.124 OBJECT vesicle.124 {}
+  vesicle.125 OBJECT vesicle.125 {}
+  vesicle.126 OBJECT vesicle.126 {}
+  vesicle.127 OBJECT vesicle.127 {}
+  vesicle.128 OBJECT vesicle.128 {}
+  vesicle.129 OBJECT vesicle.129 {}
+  vesicle.130 OBJECT vesicle.130 {}
+  vesicle.131 OBJECT vesicle.131 {}
+  vesicle.132 OBJECT vesicle.132 {}
+  vesicle.133 OBJECT vesicle.133 {}
+  vesicle.134 OBJECT vesicle.134 {}
+  vesicle.135 OBJECT vesicle.135 {}
+  vesicle.136 OBJECT vesicle.136 {}
+  vesicle.137 OBJECT vesicle.137 {}
+  vesicle.138 OBJECT vesicle.138 {}
+  vesicle.139 OBJECT vesicle.139 {}
+  vesicle.140 OBJECT vesicle.140 {}
+  vesicle.141 OBJECT vesicle.141 {}
+  vesicle.142 OBJECT vesicle.142 {}
+  vesicle.143 OBJECT vesicle.143 {}
+  vesicle.144 OBJECT vesicle.144 {}
+  vesicle.145 OBJECT vesicle.145 {}
+  vesicle.146 OBJECT vesicle.146 {}
+  vesicle.147 OBJECT vesicle.147 {}
+  vesicle.148 OBJECT vesicle.148 {}
+  vesicle.149 OBJECT vesicle.149 {}
+  vesicle.150 OBJECT vesicle.150 {}
+  vesicle.151 OBJECT vesicle.151 {}
+  vesicle.152 OBJECT vesicle.152 {}
+  vesicle.153 OBJECT vesicle.153 {}
+  vesicle.154 OBJECT vesicle.154 {}
+  vesicle.155 OBJECT vesicle.155 {}
+  vesicle.156 OBJECT vesicle.156 {}
+  vesicle.157 OBJECT vesicle.157 {}
+  vesicle.158 OBJECT vesicle.158 {}
+  vesicle.159 OBJECT vesicle.159 {}
+  vesicle.160 OBJECT vesicle.160 {}
+  vesicle.161 OBJECT vesicle.161 {}
+  vesicle.162 OBJECT vesicle.162 {}
+  vesicle.163 OBJECT vesicle.163 {}
+  vesicle.164 OBJECT vesicle.164 {}
+  vesicle.165 OBJECT vesicle.165 {}
+  vesicle.166 OBJECT vesicle.166 {}
+  vesicle.167 OBJECT vesicle.167 {}
+  vesicle.168 OBJECT vesicle.168 {}
+  vesicle.169 OBJECT vesicle.169 {}
+  vesicle.170 OBJECT vesicle.170 {}
+  vesicle.171 OBJECT vesicle.171 {}
+  vesicle.172 OBJECT vesicle.172 {}
+  vesicle.173 OBJECT vesicle.173 {}
+  vesicle.174 OBJECT vesicle.174 {}
+  vesicle.175 OBJECT vesicle.175 {}
+  vesicle.176 OBJECT vesicle.176 {}
+  vesicle.177 OBJECT vesicle.177 {}
+  vesicle.178 OBJECT vesicle.178 {}
+  vesicle.179 OBJECT vesicle.179 {}
+  vesicle.180 OBJECT vesicle.180 {}
+  vesicle.181 OBJECT vesicle.181 {}
+  vesicle.182 OBJECT vesicle.182 {}
+  vesicle.183 OBJECT vesicle.183 {}
+  vesicle.184 OBJECT vesicle.184 {}
+  vesicle.185 OBJECT vesicle.185 {}
+  vesicle.186 OBJECT vesicle.186 {}
+  vesicle.187 OBJECT vesicle.187 {}
+  vesicle.188 OBJECT vesicle.188 {}
+  vesicle.189 OBJECT vesicle.189 {}
+  vesicle.190 OBJECT vesicle.190 {}
+  vesicle.191 OBJECT vesicle.191 {}
+  vesicle.192 OBJECT vesicle.192 {}
+  vesicle.193 OBJECT vesicle.193 {}
+  vesicle.194 OBJECT vesicle.194 {}
+  vesicle.195 OBJECT vesicle.195 {}
+  vesicle.196 OBJECT vesicle.196 {}
+  vesicle.197 OBJECT vesicle.197 {}
+  vesicle.198 OBJECT vesicle.198 {}
+  vesicle.199 OBJECT vesicle.199 {}
+  vesicle.200 OBJECT vesicle.200 {}
+  vesicle.201 OBJECT vesicle.201 {}
+  vesicle.202 OBJECT vesicle.202 {}
+  vesicle.203 OBJECT vesicle.203 {}
+  vesicle.204 OBJECT vesicle.204 {}
+  vesicle.205 OBJECT vesicle.205 {}
+  vesicle.206 OBJECT vesicle.206 {}
+  vesicle.207 OBJECT vesicle.207 {}
+  vesicle.208 OBJECT vesicle.208 {}
+  vesicle.209 OBJECT vesicle.209 {}
+  vesicle.210 OBJECT vesicle.210 {}
+  vesicle.211 OBJECT vesicle.211 {}
+  vesicle.212 OBJECT vesicle.212 {}
+  vesicle.213 OBJECT vesicle.213 {}
+  vesicle.214 OBJECT vesicle.214 {}
+  vesicle.215 OBJECT vesicle.215 {}
+  vesicle.216 OBJECT vesicle.216 {}
+  vesicle.217 OBJECT vesicle.217 {}
+  vesicle.218 OBJECT vesicle.218 {}
+  vesicle.219 OBJECT vesicle.219 {}
+  vesicle.220 OBJECT vesicle.220 {}
+  vesicle.221 OBJECT vesicle.221 {}
+  vesicle.222 OBJECT vesicle.222 {}
+  vesicle.223 OBJECT vesicle.223 {}
+  vesicle.224 OBJECT vesicle.224 {}
+  vesicle.225 OBJECT vesicle.225 {}
+  vesicle.226 OBJECT vesicle.226 {}
+  vesicle.227 OBJECT vesicle.227 {}
+  vesicle.228 OBJECT vesicle.228 {}
+  vesicle.229 OBJECT vesicle.229 {}
+  vesicle.230 OBJECT vesicle.230 {}
+  vesicle.231 OBJECT vesicle.231 {}
+  vesicle.232 OBJECT vesicle.232 {}
+  vesicle.233 OBJECT vesicle.233 {}
+  vesicle.234 OBJECT vesicle.234 {}
+  vesicle.235 OBJECT vesicle.235 {}
+  vesicle.236 OBJECT vesicle.236 {}
+  vesicle.237 OBJECT vesicle.237 {}
+  vesicle.238 OBJECT vesicle.238 {}
+  vesicle.239 OBJECT vesicle.239 {}
+  vesicle.240 OBJECT vesicle.240 {}
+  vesicle.241 OBJECT vesicle.241 {}
+  vesicle.242 OBJECT vesicle.242 {}
+  vesicle.243 OBJECT vesicle.243 {}
+  vesicle.244 OBJECT vesicle.244 {}
+  vesicle.245 OBJECT vesicle.245 {}
+  vesicle.246 OBJECT vesicle.246 {}
+  vesicle.247 OBJECT vesicle.247 {}
+  vesicle.248 OBJECT vesicle.248 {}
+  vesicle.249 OBJECT vesicle.249 {}
+  vesicle.250 OBJECT vesicle.250 {}
+  vesicle.251 OBJECT vesicle.251 {}
+  vesicle.252 OBJECT vesicle.252 {}
+  vesicle.253 OBJECT vesicle.253 {}
+  vesicle.254 OBJECT vesicle.254 {}
+  vesicle.255 OBJECT vesicle.255 {}
+  vesicle.256 OBJECT vesicle.256 {}
+  vesicle.257 OBJECT vesicle.257 {}
+  vesicle.258 OBJECT vesicle.258 {}
+  vesicle.259 OBJECT vesicle.259 {}
+  vesicle.260 OBJECT vesicle.260 {}
+  vesicle.261 OBJECT vesicle.261 {}
+  vesicle.262 OBJECT vesicle.262 {}
+  vesicle.263 OBJECT vesicle.263 {}
+  vesicle.264 OBJECT vesicle.264 {}
+  vesicle.265 OBJECT vesicle.265 {}
+  vesicle.266 OBJECT vesicle.266 {}
+  vesicle.267 OBJECT vesicle.267 {}
+  vesicle.268 OBJECT vesicle.268 {}
+  vesicle.269 OBJECT vesicle.269 {}
+  vesicle.270 OBJECT vesicle.270 {}
+  vesicle.271 OBJECT vesicle.271 {}
+  vesicle.272 OBJECT vesicle.272 {}
+  vesicle.273 OBJECT vesicle.273 {}
+  vesicle.274 OBJECT vesicle.274 {}
+  vesicle.275 OBJECT vesicle.275 {}
+  vesicle.276 OBJECT vesicle.276 {}
+  vesicle.277 OBJECT vesicle.277 {}
+  vesicle.278 OBJECT vesicle.278 {}
+  vesicle.279 OBJECT vesicle.279 {}
+  vesicle.280 OBJECT vesicle.280 {}
+  vesicle.281 OBJECT vesicle.281 {}
+  vesicle.282 OBJECT vesicle.282 {}
+  vesicle.283 OBJECT vesicle.283 {}
+  vesicle.284 OBJECT vesicle.284 {}
+  vesicle.285 OBJECT vesicle.285 {}
+  vesicle.286 OBJECT vesicle.286 {}
+  vesicle.287 OBJECT vesicle.287 {}
+  vesicle.288 OBJECT vesicle.288 {}
+  vesicle.289 OBJECT vesicle.289 {}
+  vesicle.290 OBJECT vesicle.290 {}
+  vesicle.291 OBJECT vesicle.291 {}
+  vesicle.292 OBJECT vesicle.292 {}
+  vesicle.293 OBJECT vesicle.293 {}
+  vesicle.294 OBJECT vesicle.294 {}
+  vesicle.295 OBJECT vesicle.295 {}
+  vesicle.296 OBJECT vesicle.296 {}
+  vesicle.297 OBJECT vesicle.297 {}
+  vesicle.298 OBJECT vesicle.298 {}
+  vesicle.299 OBJECT vesicle.299 {}
+  vesicle.300 OBJECT vesicle.300 {}
+  vesicle.301 OBJECT vesicle.301 {}
+  vesicle.302 OBJECT vesicle.302 {}
+  vesicle.303 OBJECT vesicle.303 {}
+  vesicle.304 OBJECT vesicle.304 {}
+  vesicle.305 OBJECT vesicle.305 {}
+  vesicle.306 OBJECT vesicle.306 {}
+  vesicle.307 OBJECT vesicle.307 {}
+  vesicle.308 OBJECT vesicle.308 {}
+  vesicle.309 OBJECT vesicle.309 {}
+  vesicle.310 OBJECT vesicle.310 {}
+  vesicle.311 OBJECT vesicle.311 {}
+  vesicle.312 OBJECT vesicle.312 {}
+  vesicle.313 OBJECT vesicle.313 {}
+  vesicle.314 OBJECT vesicle.314 {}
+  vesicle.315 OBJECT vesicle.315 {}
+  vesicle.316 OBJECT vesicle.316 {}
+  vesicle.317 OBJECT vesicle.317 {}
+  vesicle.318 OBJECT vesicle.318 {}
+  vesicle.319 OBJECT vesicle.319 {}
+  vesicle.320 OBJECT vesicle.320 {}
+  Calbindin RELEASE_SITE
+  {
+   SHAPE = Scene.plasmalemma[inc] - (Scene.mitochondrian[intrude] + Scene.vesicle.000[e] + Scene.vesicle.001[e] + Scene.vesicle.002[e] + Scene.vesicle.003[e] + Scene.vesicle.004[e] + Scene.vesicle.005[e] + Scene.vesicle.006[e] + Scene.vesicle.007[e] + Scene.vesicle.008[e] + Scene.vesicle.009[e] + Scene.vesicle.010[e] + Scene.vesicle.011[e] + Scene.vesicle.012[e] + Scene.vesicle.013[e] + Scene.vesicle.014[e] + Scene.vesicle.015[e] + Scene.vesicle.016[e] + Scene.vesicle.017[e] + Scene.vesicle.018[e] + Scene.vesicle.019[e] + Scene.vesicle.020[e] + Scene.vesicle.021[e] + Scene.vesicle.022[e] + Scene.vesicle.023[e] + Scene.vesicle.024[e] + Scene.vesicle.025[e] + Scene.vesicle.026[e] + Scene.vesicle.027[e] + Scene.vesicle.028[e] + Scene.vesicle.029[e] + Scene.vesicle.030[e] + Scene.vesicle.031[e] + Scene.vesicle.032[e] + Scene.vesicle.033[e] + Scene.vesicle.034[e] + Scene.vesicle.035[e] + Scene.vesicle.036[e] + Scene.vesicle.037[e] + Scene.vesicle.038[e] + Scene.vesicle.039[e] + Scene.vesicle.040[e] + Scene.vesicle.041[e] + Scene.vesicle.042[e] + Scene.vesicle.043[e] + Scene.vesicle.044[e] + Scene.vesicle.045[e] + Scene.vesicle.046[e] + Scene.vesicle.047[e] + Scene.vesicle.048[e] + Scene.vesicle.049[e] + Scene.vesicle.050[e] + Scene.vesicle.051[e] + Scene.vesicle.052[e] + Scene.vesicle.053[e] + Scene.vesicle.054[e] + Scene.vesicle.055[e] + Scene.vesicle.056[e] + Scene.vesicle.057[e] + Scene.vesicle.058[e] + Scene.vesicle.059[e] + Scene.vesicle.060[e] + Scene.vesicle.061[e] + Scene.vesicle.062[e] + Scene.vesicle.063[e] + Scene.vesicle.064[e] + Scene.vesicle.065[e] + Scene.vesicle.066[e] + Scene.vesicle.067[e] + Scene.vesicle.068[e] + Scene.vesicle.069[e] + Scene.vesicle.070[e] + Scene.vesicle.071[e] + Scene.vesicle.072[e] + Scene.vesicle.073[e] + Scene.vesicle.074[e] + Scene.vesicle.075[e] + Scene.vesicle.076[e] + Scene.vesicle.077[e] + Scene.vesicle.078[e] + Scene.vesicle.079[e] + Scene.vesicle.080[e] + Scene.vesicle.081[e] + Scene.vesicle.082[e] + Scene.vesicle.083[e] + Scene.vesicle.084[e] + Scene.vesicle.085[e] + Scene.vesicle.086[e] + Scene.vesicle.087[e] + Scene.vesicle.088[e] + Scene.vesicle.089[e] + Scene.vesicle.090[e] + Scene.vesicle.091[e] + Scene.vesicle.092[e] + Scene.vesicle.093[e] + Scene.vesicle.094[e] + Scene.vesicle.095[e] + Scene.vesicle.096[e] + Scene.vesicle.097[e] + Scene.vesicle.098[e] + Scene.vesicle.099[e] + Scene.vesicle.100[e] + Scene.vesicle.101[e] + Scene.vesicle.102[e] + Scene.vesicle.103[e] + Scene.vesicle.104[e] + Scene.vesicle.105[e] + Scene.vesicle.106[e] + Scene.vesicle.107[e] + Scene.vesicle.108[e] + Scene.vesicle.109[e] + Scene.vesicle.110[e] + Scene.vesicle.111[e] + Scene.vesicle.112[e] + Scene.vesicle.113[e] + Scene.vesicle.114[e] + Scene.vesicle.115[e] + Scene.vesicle.116[e] + Scene.vesicle.117[e] + Scene.vesicle.118[e] + Scene.vesicle.119[e] + Scene.vesicle.120[e] + Scene.vesicle.121[e] + Scene.vesicle.022[e] + Scene.vesicle.023[e] + Scene.vesicle.024[e] + Scene.vesicle.025[e] + Scene.vesicle.026[e] + Scene.vesicle.127[e] + Scene.vesicle.128[e] + Scene.vesicle.129[e] + Scene.vesicle.130[e] + Scene.vesicle.131[e] + Scene.vesicle.132[e] + Scene.vesicle.133[e] + Scene.vesicle.134[e] + Scene.vesicle.135[e] + Scene.vesicle.136[e] + Scene.vesicle.137[e] + Scene.vesicle.138[e] + Scene.vesicle.139[e] + Scene.vesicle.140[e] + Scene.vesicle.141[e] + Scene.vesicle.142[e] + Scene.vesicle.143[e] + Scene.vesicle.144[e] + Scene.vesicle.145[e] + Scene.vesicle.146[e] + Scene.vesicle.147[e] + Scene.vesicle.148[e] + Scene.vesicle.149[e] + Scene.vesicle.150[e] + Scene.vesicle.151[e] + Scene.vesicle.152[e] + Scene.vesicle.153[e] + Scene.vesicle.154[e] + Scene.vesicle.155[e] + Scene.vesicle.156[e] + Scene.vesicle.157[e] + Scene.vesicle.158[e] + Scene.vesicle.159[e] + Scene.vesicle.160[e] + Scene.vesicle.161[e] + Scene.vesicle.162[e] + Scene.vesicle.163[e] + Scene.vesicle.164[e] + Scene.vesicle.165[e] + Scene.vesicle.166[e] + Scene.vesicle.167[e] + Scene.vesicle.168[e] + Scene.vesicle.169[e] + Scene.vesicle.170[e] + Scene.vesicle.171[e] + Scene.vesicle.172[e] + Scene.vesicle.173[e] + Scene.vesicle.174[e] + Scene.vesicle.175[e] + Scene.vesicle.176[e] + Scene.vesicle.177[e] + Scene.vesicle.178[e] + Scene.vesicle.179[e] + Scene.vesicle.180[e] + Scene.vesicle.181[e] + Scene.vesicle.182[e] + Scene.vesicle.183[e] + Scene.vesicle.184[e] + Scene.vesicle.185[e] + Scene.vesicle.186[e] + Scene.vesicle.187[e] + Scene.vesicle.188[e] + Scene.vesicle.189[e] + Scene.vesicle.190[e] + Scene.vesicle.191[e] + Scene.vesicle.192[e] + Scene.vesicle.193[e] + Scene.vesicle.194[e] + Scene.vesicle.195[e] + Scene.vesicle.196[e] + Scene.vesicle.197[e] + Scene.vesicle.198[e] + Scene.vesicle.199[e] + Scene.vesicle.200[e] + Scene.vesicle.201[e] + Scene.vesicle.202[e] + Scene.vesicle.203[e] + Scene.vesicle.204[e] + Scene.vesicle.205[e] + Scene.vesicle.206[e] + Scene.vesicle.207[e] + Scene.vesicle.208[e] + Scene.vesicle.209[e] + Scene.vesicle.210[e] + Scene.vesicle.211[e] + Scene.vesicle.212[e] + Scene.vesicle.213[e] + Scene.vesicle.214[e] + Scene.vesicle.215[e] + Scene.vesicle.216[e] + Scene.vesicle.217[e] + Scene.vesicle.218[e] + Scene.vesicle.219[e] + Scene.vesicle.220[e] + Scene.vesicle.221[e] + Scene.vesicle.222[e] + Scene.vesicle.223[e] + Scene.vesicle.224[e] + Scene.vesicle.225[e] + Scene.vesicle.226[e] + Scene.vesicle.227[e] + Scene.vesicle.228[e] + Scene.vesicle.229[e] + Scene.vesicle.230[e] + Scene.vesicle.231[e] + Scene.vesicle.232[e] + Scene.vesicle.233[e] + Scene.vesicle.234[e] + Scene.vesicle.235[e] + Scene.vesicle.236[e] + Scene.vesicle.237[e] + Scene.vesicle.238[e] + Scene.vesicle.239[e] + Scene.vesicle.240[e] + Scene.vesicle.241[e] + Scene.vesicle.242[e] + Scene.vesicle.243[e] + Scene.vesicle.244[e] + Scene.vesicle.245[e] + Scene.vesicle.246[e] + Scene.vesicle.247[e] + Scene.vesicle.248[e] + Scene.vesicle.249[e] + Scene.vesicle.250[e] + Scene.vesicle.251[e] + Scene.vesicle.252[e] + Scene.vesicle.253[e] + Scene.vesicle.254[e] + Scene.vesicle.255[e] + Scene.vesicle.256[e] + Scene.vesicle.257[e] + Scene.vesicle.258[e] + Scene.vesicle.259[e] + Scene.vesicle.260[e] + Scene.vesicle.261[e] + Scene.vesicle.262[e] + Scene.vesicle.263[e] + Scene.vesicle.264[e] + Scene.vesicle.265[e] + Scene.vesicle.266[e] + Scene.vesicle.267[e] + Scene.vesicle.268[e] + Scene.vesicle.269[e] + Scene.vesicle.270[e] + Scene.vesicle.271[e] + Scene.vesicle.272[e] + Scene.vesicle.273[e] + Scene.vesicle.274[e] + Scene.vesicle.275[e] + Scene.vesicle.276[e] + Scene.vesicle.277[e] + Scene.vesicle.278[e] + Scene.vesicle.279[e] + Scene.vesicle.280[e] + Scene.vesicle.281[e] + Scene.vesicle.282[e] + Scene.vesicle.283[e] + Scene.vesicle.284[e] + Scene.vesicle.285[e] + Scene.vesicle.286[e] + Scene.vesicle.287[e] + Scene.vesicle.288[e] + Scene.vesicle.289[e] + Scene.vesicle.290[e] + Scene.vesicle.291[e] + Scene.vesicle.292[e] + Scene.vesicle.293[e] + Scene.vesicle.294[e] + Scene.vesicle.295[e] + Scene.vesicle.296[e] + Scene.vesicle.297[e] + Scene.vesicle.298[e] + Scene.vesicle.299[e] + Scene.vesicle.300[e] + Scene.vesicle.301[e] + Scene.vesicle.302[e] + Scene.vesicle.303[e] + Scene.vesicle.304[e] + Scene.vesicle.305[e] + Scene.vesicle.306[e] + Scene.vesicle.307[e] + Scene.vesicle.308[e] + Scene.vesicle.309[e] + Scene.vesicle.310[e] + Scene.vesicle.311[e] + Scene.vesicle.312[e] + Scene.vesicle.313[e] + Scene.vesicle.314[e] + Scene.vesicle.315[e] + Scene.vesicle.316[e] + Scene.vesicle.317[e] + Scene.vesicle.318[e] + Scene.vesicle.319[e] + Scene.vesicle.320[e])
+   MOLECULE = B
+   NUMBER_TO_RELEASE = 26876
+   RELEASE_PROBABILITY = 1
+  }
+  mitopump RELEASE_SITE
+  {
+   SHAPE = Scene.mitochondrian[intrude]
+   MOLECULE = intruder'
+   NUMBER_TO_RELEASE = 1000
+   RELEASE_PROBABILITY = 1
+  }
+  plasmapump RELEASE_SITE
+  {
+   SHAPE = Scene.plasmalemma[extrude]
+   MOLECULE = extruder,
+   NUMBER_TO_RELEASE = 2500
+   RELEASE_PROBABILITY = 1
+  }
+  VDCC1 RELEASE_SITE
+  {
+   SHAPE = SPHERICAL
+   LOCATION = [-0.213, 0.4615, -0.062]
+   SITE_DIAMETER = 0
+   MOLECULE = Calcium
+   NUMBER_TO_RELEASE = 1
+   RELEASE_PROBABILITY = 1
+   RELEASE_PATTERN = AP_pattern
+  }
+   restCa RELEASE_SITE
+  {
+   SHAPE = Scene.plasmalemma[inc] - (Scene.mitochondrian[intrude] + Scene.vesicle.000[e] + Scene.vesicle.001[e] + Scene.vesicle.002[e] + Scene.vesicle.003[e] + Scene.vesicle.004[e] + Scene.vesicle.005[e] + Scene.vesicle.006[e] + Scene.vesicle.007[e] + Scene.vesicle.008[e] + Scene.vesicle.009[e] + Scene.vesicle.010[e] + Scene.vesicle.011[e] + Scene.vesicle.012[e] + Scene.vesicle.013[e] + Scene.vesicle.014[e] + Scene.vesicle.015[e] + Scene.vesicle.016[e] + Scene.vesicle.017[e] + Scene.vesicle.018[e] + Scene.vesicle.019[e] + Scene.vesicle.020[e] + Scene.vesicle.021[e] + Scene.vesicle.022[e] + Scene.vesicle.023[e] + Scene.vesicle.024[e] + Scene.vesicle.025[e] + Scene.vesicle.026[e] + Scene.vesicle.027[e] + Scene.vesicle.028[e] + Scene.vesicle.029[e] + Scene.vesicle.030[e] + Scene.vesicle.031[e] + Scene.vesicle.032[e] + Scene.vesicle.033[e] + Scene.vesicle.034[e] + Scene.vesicle.035[e] + Scene.vesicle.036[e] + Scene.vesicle.037[e] + Scene.vesicle.038[e] + Scene.vesicle.039[e] + Scene.vesicle.040[e] + Scene.vesicle.041[e] + Scene.vesicle.042[e] + Scene.vesicle.043[e] + Scene.vesicle.044[e] + Scene.vesicle.045[e] + Scene.vesicle.046[e] + Scene.vesicle.047[e] + Scene.vesicle.048[e] + Scene.vesicle.049[e] + Scene.vesicle.050[e] + Scene.vesicle.051[e] + Scene.vesicle.052[e] + Scene.vesicle.053[e] + Scene.vesicle.054[e] + Scene.vesicle.055[e] + Scene.vesicle.056[e] + Scene.vesicle.057[e] + Scene.vesicle.058[e] + Scene.vesicle.059[e] + Scene.vesicle.060[e] + Scene.vesicle.061[e] + Scene.vesicle.062[e] + Scene.vesicle.063[e] + Scene.vesicle.064[e] + Scene.vesicle.065[e] + Scene.vesicle.066[e] + Scene.vesicle.067[e] + Scene.vesicle.068[e] + Scene.vesicle.069[e] + Scene.vesicle.070[e] + Scene.vesicle.071[e] + Scene.vesicle.072[e] + Scene.vesicle.073[e] + Scene.vesicle.074[e] + Scene.vesicle.075[e] + Scene.vesicle.076[e] + Scene.vesicle.077[e] + Scene.vesicle.078[e] + Scene.vesicle.079[e] + Scene.vesicle.080[e] + Scene.vesicle.081[e] + Scene.vesicle.082[e] + Scene.vesicle.083[e] + Scene.vesicle.084[e] + Scene.vesicle.085[e] + Scene.vesicle.086[e] + Scene.vesicle.087[e] + Scene.vesicle.088[e] + Scene.vesicle.089[e] + Scene.vesicle.090[e] + Scene.vesicle.091[e] + Scene.vesicle.092[e] + Scene.vesicle.093[e] + Scene.vesicle.094[e] + Scene.vesicle.095[e] + Scene.vesicle.096[e] + Scene.vesicle.097[e] + Scene.vesicle.098[e] + Scene.vesicle.099[e] + Scene.vesicle.100[e] + Scene.vesicle.101[e] + Scene.vesicle.102[e] + Scene.vesicle.103[e] + Scene.vesicle.104[e] + Scene.vesicle.105[e] + Scene.vesicle.106[e] + Scene.vesicle.107[e] + Scene.vesicle.108[e] + Scene.vesicle.109[e] + Scene.vesicle.110[e] + Scene.vesicle.111[e] + Scene.vesicle.112[e] + Scene.vesicle.113[e] + Scene.vesicle.114[e] + Scene.vesicle.115[e] + Scene.vesicle.116[e] + Scene.vesicle.117[e] + Scene.vesicle.118[e] + Scene.vesicle.119[e] + Scene.vesicle.120[e] + Scene.vesicle.121[e] + Scene.vesicle.022[e] + Scene.vesicle.023[e] + Scene.vesicle.024[e] + Scene.vesicle.025[e] + Scene.vesicle.026[e] + Scene.vesicle.127[e] + Scene.vesicle.128[e] + Scene.vesicle.129[e] + Scene.vesicle.130[e] + Scene.vesicle.131[e] + Scene.vesicle.132[e] + Scene.vesicle.133[e] + Scene.vesicle.134[e] + Scene.vesicle.135[e] + Scene.vesicle.136[e] + Scene.vesicle.137[e] + Scene.vesicle.138[e] + Scene.vesicle.139[e] + Scene.vesicle.140[e] + Scene.vesicle.141[e] + Scene.vesicle.142[e] + Scene.vesicle.143[e] + Scene.vesicle.144[e] + Scene.vesicle.145[e] + Scene.vesicle.146[e] + Scene.vesicle.147[e] + Scene.vesicle.148[e] + Scene.vesicle.149[e] + Scene.vesicle.150[e] + Scene.vesicle.151[e] + Scene.vesicle.152[e] + Scene.vesicle.153[e] + Scene.vesicle.154[e] + Scene.vesicle.155[e] + Scene.vesicle.156[e] + Scene.vesicle.157[e] + Scene.vesicle.158[e] + Scene.vesicle.159[e] + Scene.vesicle.160[e] + Scene.vesicle.161[e] + Scene.vesicle.162[e] + Scene.vesicle.163[e] + Scene.vesicle.164[e] + Scene.vesicle.165[e] + Scene.vesicle.166[e] + Scene.vesicle.167[e] + Scene.vesicle.168[e] + Scene.vesicle.169[e] + Scene.vesicle.170[e] + Scene.vesicle.171[e] + Scene.vesicle.172[e] + Scene.vesicle.173[e] + Scene.vesicle.174[e] + Scene.vesicle.175[e] + Scene.vesicle.176[e] + Scene.vesicle.177[e] + Scene.vesicle.178[e] + Scene.vesicle.179[e] + Scene.vesicle.180[e] + Scene.vesicle.181[e] + Scene.vesicle.182[e] + Scene.vesicle.183[e] + Scene.vesicle.184[e] + Scene.vesicle.185[e] + Scene.vesicle.186[e] + Scene.vesicle.187[e] + Scene.vesicle.188[e] + Scene.vesicle.189[e] + Scene.vesicle.190[e] + Scene.vesicle.191[e] + Scene.vesicle.192[e] + Scene.vesicle.193[e] + Scene.vesicle.194[e] + Scene.vesicle.195[e] + Scene.vesicle.196[e] + Scene.vesicle.197[e] + Scene.vesicle.198[e] + Scene.vesicle.199[e] + Scene.vesicle.200[e] + Scene.vesicle.201[e] + Scene.vesicle.202[e] + Scene.vesicle.203[e] + Scene.vesicle.204[e] + Scene.vesicle.205[e] + Scene.vesicle.206[e] + Scene.vesicle.207[e] + Scene.vesicle.208[e] + Scene.vesicle.209[e] + Scene.vesicle.210[e] + Scene.vesicle.211[e] + Scene.vesicle.212[e] + Scene.vesicle.213[e] + Scene.vesicle.214[e] + Scene.vesicle.215[e] + Scene.vesicle.216[e] + Scene.vesicle.217[e] + Scene.vesicle.218[e] + Scene.vesicle.219[e] + Scene.vesicle.220[e] + Scene.vesicle.221[e] + Scene.vesicle.222[e] + Scene.vesicle.223[e] + Scene.vesicle.224[e] + Scene.vesicle.225[e] + Scene.vesicle.226[e] + Scene.vesicle.227[e] + Scene.vesicle.228[e] + Scene.vesicle.229[e] + Scene.vesicle.230[e] + Scene.vesicle.231[e] + Scene.vesicle.232[e] + Scene.vesicle.233[e] + Scene.vesicle.234[e] + Scene.vesicle.235[e] + Scene.vesicle.236[e] + Scene.vesicle.237[e] + Scene.vesicle.238[e] + Scene.vesicle.239[e] + Scene.vesicle.240[e] + Scene.vesicle.241[e] + Scene.vesicle.242[e] + Scene.vesicle.243[e] + Scene.vesicle.244[e] + Scene.vesicle.245[e] + Scene.vesicle.246[e] + Scene.vesicle.247[e] + Scene.vesicle.248[e] + Scene.vesicle.249[e] + Scene.vesicle.250[e] + Scene.vesicle.251[e] + Scene.vesicle.252[e] + Scene.vesicle.253[e] + Scene.vesicle.254[e] + Scene.vesicle.255[e] + Scene.vesicle.256[e] + Scene.vesicle.257[e] + Scene.vesicle.258[e] + Scene.vesicle.259[e] + Scene.vesicle.260[e] + Scene.vesicle.261[e] + Scene.vesicle.262[e] + Scene.vesicle.263[e] + Scene.vesicle.264[e] + Scene.vesicle.265[e] + Scene.vesicle.266[e] + Scene.vesicle.267[e] + Scene.vesicle.268[e] + Scene.vesicle.269[e] + Scene.vesicle.270[e] + Scene.vesicle.271[e] + Scene.vesicle.272[e] + Scene.vesicle.273[e] + Scene.vesicle.274[e] + Scene.vesicle.275[e] + Scene.vesicle.276[e] + Scene.vesicle.277[e] + Scene.vesicle.278[e] + Scene.vesicle.279[e] + Scene.vesicle.280[e] + Scene.vesicle.281[e] + Scene.vesicle.282[e] + Scene.vesicle.283[e] + Scene.vesicle.284[e] + Scene.vesicle.285[e] + Scene.vesicle.286[e] + Scene.vesicle.287[e] + Scene.vesicle.288[e] + Scene.vesicle.289[e] + Scene.vesicle.290[e] + Scene.vesicle.291[e] + Scene.vesicle.292[e] + Scene.vesicle.293[e] + Scene.vesicle.294[e] + Scene.vesicle.295[e] + Scene.vesicle.296[e] + Scene.vesicle.297[e] + Scene.vesicle.298[e] + Scene.vesicle.299[e] + Scene.vesicle.300[e] + Scene.vesicle.301[e] + Scene.vesicle.302[e] + Scene.vesicle.303[e] + Scene.vesicle.304[e] + Scene.vesicle.305[e] + Scene.vesicle.306[e] + Scene.vesicle.307[e] + Scene.vesicle.308[e] + Scene.vesicle.309[e] + Scene.vesicle.310[e] + Scene.vesicle.311[e] + Scene.vesicle.312[e] + Scene.vesicle.313[e] + Scene.vesicle.314[e] + Scene.vesicle.315[e] + Scene.vesicle.316[e] + Scene.vesicle.317[e] + Scene.vesicle.318[e] + Scene.vesicle.319[e] + Scene.vesicle.320[e])
+
+   MOLECULE = Calcium
+   NUMBER_TO_RELEASE = 12529
+   RELEASE_PROBABILITY = 1
+  }
+
+  leak RELEASE_SITE
+  {
+   SHAPE = Scene.plasmalemma[extrude]
+   MOLECULE = Caleak,
+   NUMBER_TO_RELEASE = 3500
+   RELEASE_PROBABILITY = 1
+  }
+    syt1_a RELEASE_SITE
+  {
+   SHAPE = Scene.plasmalemma[syta]
+   MOLECULE = syt1,
+   NUMBER_TO_RELEASE = 4
+   RELEASE_PROBABILITY = 1
+  }
+  VDCC2 RELEASE_SITE
+  {
+   SHAPE = SPHERICAL
+   LOCATION = [-0.2724, -0.4058, -0.3025]
+   SITE_DIAMETER = 0
+   MOLECULE = Calcium
+   NUMBER_TO_RELEASE = 1
+   RELEASE_PROBABILITY = 1
+   RELEASE_PATTERN = AP_pattern
+  }
+  VDCC3 RELEASE_SITE
+  {
+   SHAPE = SPHERICAL
+   LOCATION = [0.5122, -0.0025, 0]
+   SITE_DIAMETER = 0
+   MOLECULE = Calcium
+   NUMBER_TO_RELEASE = 1
+   RELEASE_PROBABILITY = 1
+   RELEASE_PATTERN = AP_pattern
+  }
+  VDCC4 RELEASE_SITE
+  {
+   SHAPE = SPHERICAL
+   LOCATION = [-0.3217, 0.2744, -0.5946]
+   SITE_DIAMETER = 0
+   MOLECULE = Calcium
+   NUMBER_TO_RELEASE = 1
+   RELEASE_PROBABILITY = 1
+   RELEASE_PATTERN = AP_pattern
+  }
+  VDCC5 RELEASE_SITE
+  {
+   SHAPE = SPHERICAL
+   LOCATION = [-0.2379, 0.2722, 0.7545]
+   SITE_DIAMETER = 0
+   MOLECULE = Calcium
+   NUMBER_TO_RELEASE = 1
+   RELEASE_PROBABILITY = 1
+   RELEASE_PATTERN = AP_pattern
+  }
+  VDCC6 RELEASE_SITE
+  {
+   SHAPE = SPHERICAL
+   LOCATION = [0.362, -0.2207, 0.5927]
+   SITE_DIAMETER = 0
+   MOLECULE = Calcium
+   NUMBER_TO_RELEASE = 1
+   RELEASE_PROBABILITY = 1
+   RELEASE_PATTERN = AP_pattern
+  }
+  Calbindinb RELEASE_SITE
+  {
+   SHAPE = Scene.plasmalemma[inc] - (Scene.mitochondrian[intrude] + Scene.vesicle.000[e] + Scene.vesicle.001[e] + Scene.vesicle.002[e] + Scene.vesicle.003[e] + Scene.vesicle.004[e] + Scene.vesicle.005[e] + Scene.vesicle.006[e] + Scene.vesicle.007[e] + Scene.vesicle.008[e] + Scene.vesicle.009[e] + Scene.vesicle.010[e] + Scene.vesicle.011[e] + Scene.vesicle.012[e] + Scene.vesicle.013[e] + Scene.vesicle.014[e] + Scene.vesicle.015[e] + Scene.vesicle.016[e] + Scene.vesicle.017[e] + Scene.vesicle.018[e] + Scene.vesicle.019[e] + Scene.vesicle.020[e] + Scene.vesicle.021[e] + Scene.vesicle.022[e] + Scene.vesicle.023[e] + Scene.vesicle.024[e] + Scene.vesicle.025[e] + Scene.vesicle.026[e] + Scene.vesicle.027[e] + Scene.vesicle.028[e] + Scene.vesicle.029[e] + Scene.vesicle.030[e] + Scene.vesicle.031[e] + Scene.vesicle.032[e] + Scene.vesicle.033[e] + Scene.vesicle.034[e] + Scene.vesicle.035[e] + Scene.vesicle.036[e] + Scene.vesicle.037[e] + Scene.vesicle.038[e] + Scene.vesicle.039[e] + Scene.vesicle.040[e] + Scene.vesicle.041[e] + Scene.vesicle.042[e] + Scene.vesicle.043[e] + Scene.vesicle.044[e] + Scene.vesicle.045[e] + Scene.vesicle.046[e] + Scene.vesicle.047[e] + Scene.vesicle.048[e] + Scene.vesicle.049[e] + Scene.vesicle.050[e] + Scene.vesicle.051[e] + Scene.vesicle.052[e] + Scene.vesicle.053[e] + Scene.vesicle.054[e] + Scene.vesicle.055[e] + Scene.vesicle.056[e] + Scene.vesicle.057[e] + Scene.vesicle.058[e] + Scene.vesicle.059[e] + Scene.vesicle.060[e] + Scene.vesicle.061[e] + Scene.vesicle.062[e] + Scene.vesicle.063[e] + Scene.vesicle.064[e] + Scene.vesicle.065[e] + Scene.vesicle.066[e] + Scene.vesicle.067[e] + Scene.vesicle.068[e] + Scene.vesicle.069[e] + Scene.vesicle.070[e] + Scene.vesicle.071[e] + Scene.vesicle.072[e] + Scene.vesicle.073[e] + Scene.vesicle.074[e] + Scene.vesicle.075[e] + Scene.vesicle.076[e] + Scene.vesicle.077[e] + Scene.vesicle.078[e] + Scene.vesicle.079[e] + Scene.vesicle.080[e] + Scene.vesicle.081[e] + Scene.vesicle.082[e] + Scene.vesicle.083[e] + Scene.vesicle.084[e] + Scene.vesicle.085[e] + Scene.vesicle.086[e] + Scene.vesicle.087[e] + Scene.vesicle.088[e] + Scene.vesicle.089[e] + Scene.vesicle.090[e] + Scene.vesicle.091[e] + Scene.vesicle.092[e] + Scene.vesicle.093[e] + Scene.vesicle.094[e] + Scene.vesicle.095[e] + Scene.vesicle.096[e] + Scene.vesicle.097[e] + Scene.vesicle.098[e] + Scene.vesicle.099[e] + Scene.vesicle.100[e] + Scene.vesicle.101[e] + Scene.vesicle.102[e] + Scene.vesicle.103[e] + Scene.vesicle.104[e] + Scene.vesicle.105[e] + Scene.vesicle.106[e] + Scene.vesicle.107[e] + Scene.vesicle.108[e] + Scene.vesicle.109[e] + Scene.vesicle.110[e] + Scene.vesicle.111[e] + Scene.vesicle.112[e] + Scene.vesicle.113[e] + Scene.vesicle.114[e] + Scene.vesicle.115[e] + Scene.vesicle.116[e] + Scene.vesicle.117[e] + Scene.vesicle.118[e] + Scene.vesicle.119[e] + Scene.vesicle.120[e] + Scene.vesicle.121[e] + Scene.vesicle.022[e] + Scene.vesicle.023[e] + Scene.vesicle.024[e] + Scene.vesicle.025[e] + Scene.vesicle.026[e] + Scene.vesicle.127[e] + Scene.vesicle.128[e] + Scene.vesicle.129[e] + Scene.vesicle.130[e] + Scene.vesicle.131[e] + Scene.vesicle.132[e] + Scene.vesicle.133[e] + Scene.vesicle.134[e] + Scene.vesicle.135[e] + Scene.vesicle.136[e] + Scene.vesicle.137[e] + Scene.vesicle.138[e] + Scene.vesicle.139[e] + Scene.vesicle.140[e] + Scene.vesicle.141[e] + Scene.vesicle.142[e] + Scene.vesicle.143[e] + Scene.vesicle.144[e] + Scene.vesicle.145[e] + Scene.vesicle.146[e] + Scene.vesicle.147[e] + Scene.vesicle.148[e] + Scene.vesicle.149[e] + Scene.vesicle.150[e] + Scene.vesicle.151[e] + Scene.vesicle.152[e] + Scene.vesicle.153[e] + Scene.vesicle.154[e] + Scene.vesicle.155[e] + Scene.vesicle.156[e] + Scene.vesicle.157[e] + Scene.vesicle.158[e] + Scene.vesicle.159[e] + Scene.vesicle.160[e] + Scene.vesicle.161[e] + Scene.vesicle.162[e] + Scene.vesicle.163[e] + Scene.vesicle.164[e] + Scene.vesicle.165[e] + Scene.vesicle.166[e] + Scene.vesicle.167[e] + Scene.vesicle.168[e] + Scene.vesicle.169[e] + Scene.vesicle.170[e] + Scene.vesicle.171[e] + Scene.vesicle.172[e] + Scene.vesicle.173[e] + Scene.vesicle.174[e] + Scene.vesicle.175[e] + Scene.vesicle.176[e] + Scene.vesicle.177[e] + Scene.vesicle.178[e] + Scene.vesicle.179[e] + Scene.vesicle.180[e] + Scene.vesicle.181[e] + Scene.vesicle.182[e] + Scene.vesicle.183[e] + Scene.vesicle.184[e] + Scene.vesicle.185[e] + Scene.vesicle.186[e] + Scene.vesicle.187[e] + Scene.vesicle.188[e] + Scene.vesicle.189[e] + Scene.vesicle.190[e] + Scene.vesicle.191[e] + Scene.vesicle.192[e] + Scene.vesicle.193[e] + Scene.vesicle.194[e] + Scene.vesicle.195[e] + Scene.vesicle.196[e] + Scene.vesicle.197[e] + Scene.vesicle.198[e] + Scene.vesicle.199[e] + Scene.vesicle.200[e] + Scene.vesicle.201[e] + Scene.vesicle.202[e] + Scene.vesicle.203[e] + Scene.vesicle.204[e] + Scene.vesicle.205[e] + Scene.vesicle.206[e] + Scene.vesicle.207[e] + Scene.vesicle.208[e] + Scene.vesicle.209[e] + Scene.vesicle.210[e] + Scene.vesicle.211[e] + Scene.vesicle.212[e] + Scene.vesicle.213[e] + Scene.vesicle.214[e] + Scene.vesicle.215[e] + Scene.vesicle.216[e] + Scene.vesicle.217[e] + Scene.vesicle.218[e] + Scene.vesicle.219[e] + Scene.vesicle.220[e] + Scene.vesicle.221[e] + Scene.vesicle.222[e] + Scene.vesicle.223[e] + Scene.vesicle.224[e] + Scene.vesicle.225[e] + Scene.vesicle.226[e] + Scene.vesicle.227[e] + Scene.vesicle.228[e] + Scene.vesicle.229[e] + Scene.vesicle.230[e] + Scene.vesicle.231[e] + Scene.vesicle.232[e] + Scene.vesicle.233[e] + Scene.vesicle.234[e] + Scene.vesicle.235[e] + Scene.vesicle.236[e] + Scene.vesicle.237[e] + Scene.vesicle.238[e] + Scene.vesicle.239[e] + Scene.vesicle.240[e] + Scene.vesicle.241[e] + Scene.vesicle.242[e] + Scene.vesicle.243[e] + Scene.vesicle.244[e] + Scene.vesicle.245[e] + Scene.vesicle.246[e] + Scene.vesicle.247[e] + Scene.vesicle.248[e] + Scene.vesicle.249[e] + Scene.vesicle.250[e] + Scene.vesicle.251[e] + Scene.vesicle.252[e] + Scene.vesicle.253[e] + Scene.vesicle.254[e] + Scene.vesicle.255[e] + Scene.vesicle.256[e] + Scene.vesicle.257[e] + Scene.vesicle.258[e] + Scene.vesicle.259[e] + Scene.vesicle.260[e] + Scene.vesicle.261[e] + Scene.vesicle.262[e] + Scene.vesicle.263[e] + Scene.vesicle.264[e] + Scene.vesicle.265[e] + Scene.vesicle.266[e] + Scene.vesicle.267[e] + Scene.vesicle.268[e] + Scene.vesicle.269[e] + Scene.vesicle.270[e] + Scene.vesicle.271[e] + Scene.vesicle.272[e] + Scene.vesicle.273[e] + Scene.vesicle.274[e] + Scene.vesicle.275[e] + Scene.vesicle.276[e] + Scene.vesicle.277[e] + Scene.vesicle.278[e] + Scene.vesicle.279[e] + Scene.vesicle.280[e] + Scene.vesicle.281[e] + Scene.vesicle.282[e] + Scene.vesicle.283[e] + Scene.vesicle.284[e] + Scene.vesicle.285[e] + Scene.vesicle.286[e] + Scene.vesicle.287[e] + Scene.vesicle.288[e] + Scene.vesicle.289[e] + Scene.vesicle.290[e] + Scene.vesicle.291[e] + Scene.vesicle.292[e] + Scene.vesicle.293[e] + Scene.vesicle.294[e] + Scene.vesicle.295[e] + Scene.vesicle.296[e] + Scene.vesicle.297[e] + Scene.vesicle.298[e] + Scene.vesicle.299[e] + Scene.vesicle.300[e] + Scene.vesicle.301[e] + Scene.vesicle.302[e] + Scene.vesicle.303[e] + Scene.vesicle.304[e] + Scene.vesicle.305[e] + Scene.vesicle.306[e] + Scene.vesicle.307[e] + Scene.vesicle.308[e] + Scene.vesicle.309[e] + Scene.vesicle.310[e] + Scene.vesicle.311[e] + Scene.vesicle.312[e] + Scene.vesicle.313[e] + Scene.vesicle.314[e] + Scene.vesicle.315[e] + Scene.vesicle.316[e] + Scene.vesicle.317[e] + Scene.vesicle.318[e] + Scene.vesicle.319[e] + Scene.vesicle.320[e])
+
+   MOLECULE = Bb
+   NUMBER_TO_RELEASE = 0
+   RELEASE_PROBABILITY = 1
+  }
+
+}
+
+sprintf(seed,"%05g",SEED)
+
+INCLUDE_FILE = "Scene.viz_output.mdl"
+
+INCLUDE_FILE = "Scene.rxn_output.mdl"
+
